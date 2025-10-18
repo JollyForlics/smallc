@@ -24,7 +24,7 @@ struct token {
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
-    fprintf(stderr, "Please specify a \033[31minput\033[0m file");
+    fprintf(stderr, "Please specify a \033[31minput\033[0m file\n");
     return (-1);
   }
 
